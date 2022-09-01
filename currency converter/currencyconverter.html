@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto my-5">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-center my-3">Currency converter</h3>
+              </div>
+              <div class="ml-3">
+                <h4>Usd</h4>
+              </div>
+              <div class="input-group">
+                <input
+                  type="number"
+                  placeholder="Enter Amount"
+                  class="form-control"
+                  id="inpt1"
+                />
+              </div>
+              <div class="ml-3 mt-3">
+                <h4>Ngn</h4>
+              </div>
+              <div>
+                <span class="pid"></span>
+              </div>
+              <div class="mt-4 btn-group">
+                <button class="btn btn-primary btn-lg" onclick="convert()">
+                  Convert
+                </button>
+                <button class="btn btn-success btn-lg" onclick="wipe()">
+                  Clear
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/currencyconverter.js"></script>
+  </body>
+</html>
